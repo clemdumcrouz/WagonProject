@@ -1,5 +1,18 @@
 /* TODO: code all the map layout */
+
+.page-container {
+	display:flex;
+	width: 900px,
+	margin: 50px auto;
+}
+
+.results {
+	flex-grow: 1;
+}
+
 #map {
   height: 100vh !important;
-  width: 500px;
+  flex: 0 0 400px;
+  position: sticky !important;
+  top: 10px !important;
 }

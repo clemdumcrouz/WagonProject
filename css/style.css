@@ -15,9 +15,18 @@ body {
   background: #F7F9FC;
   margin: 0;
 }
-h1, h2, h3 {
+h2, h3 {
   font-family: "Montserrat", "sans-serif";
 }
+
+h1 {
+  font-size:50px;
+  font-family: 'Exo', sans-serif;
+}
+.results h1{
+	color:#9E3226;
+}
+
 a {
   color: rgb(200,200,200);
   text-decoration: none;
